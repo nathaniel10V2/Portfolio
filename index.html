@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nathaniel DAYAS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="box">
+            <div class="flex align-center space-between">
+                <button onclick="openMenu()" class="header-menu-mobile">
+                    <span class="material-symbols-outlined"> menu</span>
+                </button>
+                <a href="/" class="header-logo">
+                    <img src="img/java-logo.png">
+                </a>
+                <ul class="header-menu">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#compétences">Compétences</a></li>
+                    <li><a href="#réalisations">Réalisations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>     
+            </div>
+        </div>
+    </header>
+    <div class="slider" id="accueil">
+        <img src="img/fond_bleu.jpg" class="slider_background">
+        <div class="slider_content">
+            <h1>Nathaniel Dayas</h1>
+        </div>
+    </div>
+    <div class="section" id="about">
+        <div class="box">
+            <div class="flex row center">
+                <div class="w40 wv100">
+                    <h2>A propos de moi</h2>
+                </div>
+                <div class="w60 wv100 flex2">
+                    <p>Développeur informatique passionné, je me spécialise dans la conception et le développement d'applications web et de jeux vidéo. Grâce à une formation approfondie en programmation et à une forte capacité d'apprentissage, j'ai acquis des compétences solides dans des environnements techniques variés.</p>
+                    <a href="DAYAS_Nathaniel_CV_30082024.pdf" download="Nathaniel_Dayas_CV.pdf" class="download-button">Télécharger mon CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section dark" id="compétences">
+        <div class="box text-center">
+            <h2>Mes Compétences</h2>
+            <div class="flex2">
+                <div class="flex column gap20">
+                    <div class="w20 wv100 skill">
+                        <img src="img/java-logo.png">
+                        <h3>Java</h3>
+                    </div>
+                    <div class="w20 wv100 skill">
+                        <img src="img/angular-logo.jpg">
+                        <h3>Angular</h3>
+                    </div>
+                    <div class="w20 wv100 skill">
+                        <img src="img/HTML5_logo2.png">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="w20 wv100 skill">
+                        <img src="img/css-logo.png">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="w20 wv100 skill">
+                        <img src="img/js-logo.png">
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="flex column gap20">
+                    <div class="w20 wv100 skill">
+                        <img src="img/CSharp-logo.svg">
+                        <h3>C#</h3>
+                    </div>
+                    <div class="w20 wv100 skill">
+                        <img src="img/wpf-logo.jpg">
+                        <h3>WPF</h3>
+                    </div>
+                    <div class="w20 wv100 skill">
+                        <img src="img/ts-logo.png">
+                        <h3>TypeScript</h3>
+                    </div>
+                    <div class="w20 wv100 skill">
+                        <img src="img/spring-logo2.png">
+                        <h3>Spring</h3>
+                    </div>
+                    <div class="w20 wv100 skill">
+                        <img src="img/unity-logo.jpg">
+                        <h3>Unity</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="réalisations">
+        <div class="box text-center">
+            <h2>Mes réalisations</h2>
+            <p>Cliquez sur l'image</p>
+            <div class="flex2 wrap space-between">
+                <div class="flex wrap space-between">
+                    <div class="w32 projets">
+                        <a href="https://github.com/nathaniel10V2/calculatrice" target="_blank">
+                            <img src="img/calculatrice.png">
+                        </a>
+                        <p>Ce projet est une application de calculatrice interactive développée en TypeScript. Elle offre une interface utilisateur simple pour effectuer des opérations mathématiques de base tout en gérant dynamiquement les entrées de l'utilisateur.</p>
+                    </div>
+                    <div class="w32 projets">
+                        <a href="https://github.com/nathaniel10V2/Jeu-WPF.git" target="_blank">
+                            <img src="img/jeu.png">
+                        </a>
+                        <p>Jeux:</p>
+                        <p>- de mémoire, dont le but est de trouver des pairs</p> 
+                        <p>- de hasard, dont le but est d'obtenir un score de 20 en lançant un dé</p> 
+                        <p>- de cartes, dont le but est d'avoir le plus grand chiffre</p>
+                        <p>Réaliser en WPF</p>
+                    </div>
+                    <div class="w32 projets">
+                        <a href="https://github.com/nathaniel10V2/Jeu-Angular.git" target="_blank">
+                            <img src="img/hasard.png">
+                        </a>
+                        <p>Jeux:</p>
+                        <p>- de mémoire, dont le but est de trouver des pairs</p> 
+                        <p>- de hasard, dont le but est d'obtenir un score de 20 en lançant un dé</p> 
+                        <p>Réaliser en Angular</p>
+                    </div>
+                </div>
+                <div class="flex wrap space-between">
+                    <div class="w32 projets">
+                        <a href="video/Jeu de plateau.mp4" target="_blank">
+                            <img src="img/dé.png" alt="Démarrer la vidéo" style="cursor: pointer;">
+                        </a>
+                        <p>Un projet développé sous Unity et C#, simulant un jeu de hasard basé sur le lancer de dés. Ce projet met en avant des compétences en programmation orientée objet et en conception de gameplay interactif,
+                            avec une structure modulaire permettant des extensions ou personnalisations futures.</p>
+                    </div>
+                    <div class="w32 projets">
+                        <a href="video/Jeu des portes.mp4" target="_blank">
+                            <img src="img/porte.png" alt="Démarrer la vidéo" style="cursor: pointer;">
+                        </a>
+                        <p>Un projet ludique réalisé avec Unity et C#, basé sur un concept de choix et de hasard. Les joueurs interagissent avec des portes pour découvrir des récompenses ou des surprises, 
+                            illustrant des compétences en création de mécaniques de jeu et en gestion des événements aléatoires.</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section dark" id="contact">
+        <div class="box text-center">
+            <h2>Contactez-moi</h2>
+            <div class="flex space-between">
+                <div class="w32 contact">
+                    <span class="material-symbols-outlined icon"> mail</span>
+                    <span class="label">E-mail</span>
+                    <span class="value">nathanieldayas02@gmail.com</span>
+                </div>
+                <div class="w32 contact">
+                    <span class="icon"> <img src="img/linkedin-logo.png"></span>
+                    <span class="label">LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/nathaniel-dayas-43b226332/" target="_blank" class="value">profil LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/app.js"></script>
+</html>
