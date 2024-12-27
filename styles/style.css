@@ -58,6 +58,7 @@ p {
     width: 20%;
     cursor: pointer;
     text-decoration: none;
+    text-align: center;
     border-radius: 5px;
 }
 
@@ -120,6 +121,10 @@ p {
 
 .gap20 {
     gap: 20px;
+}
+
+.subtitle {
+    margin-bottom: 20px;
 }
 
 .skill {
@@ -195,6 +200,11 @@ p {
     border-radius: 15px;
     padding: 30px;
     box-sizing: border-box;
+    font-size: 16px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    white-space: normal;
 }
 
 header {
@@ -327,11 +337,28 @@ header {
         width: 100%;
     }
 
+    .download-button {
+        font-size: 14px;
+        padding: 12px 20px;
+        width: auto;
+    }
+
     .section {
         padding: 50px 0;
     }
 
     .box {
         max-width: 90%;
+    }
+
+    .contact {
+        font-size: 14px;
+        padding: 20px;
+        width: 40%;
+    }
+
+    .contact .label,
+    .contact .value {
+        font-size: 13px;
     }
 }
