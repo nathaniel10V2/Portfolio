@@ -159,6 +159,10 @@ p {
     height: 100%;
 }
 
+.nutrition-img {
+    height: 300px;
+}
+
 .projets img  {
     width: 100%;
     max-width: 300px;
