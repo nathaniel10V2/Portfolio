@@ -28,10 +28,6 @@ Structure du projet
  [videos eventuelles]
  DAYAS_Nathaniel_CV_30082024.pdf
  
-Mon CV
-Telechargez mon CV en PDF ici :
-./DAYAS_Nathaniel_CV_30082024.pdf
-
 Lancer le projet localement
 git clone https://github.com/nathaniel10V2/Portfolio.git
 cd Portfolio
