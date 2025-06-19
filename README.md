@@ -12,7 +12,6 @@ Ce portfolio est une application statique developpee avec :
   
 Fonctions principales
 - Presentation dynamique de mes projets
-- CV PDF telechargeable
 - Navigation fluide et design adaptatif (mobile et desktop)
 - Code structure et optimise
   
@@ -26,7 +25,6 @@ Structure du projet
  [images du site]
  video/
  [videos eventuelles]
- DAYAS_Nathaniel_CV_30082024.pdf
  
 Lancer le projet localement
 git clone https://github.com/nathaniel10V2/Portfolio.git
